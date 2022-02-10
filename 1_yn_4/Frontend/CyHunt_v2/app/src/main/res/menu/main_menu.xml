@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_landing_page"
+            android:title="Landing Page"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_dashboard"
+            android:title="@string/menu_dashboard"
+            android:visible="false" />
+        <item
+            android:id="@+id/mapsActivity"
+            android:title="@string/menu_map" />
+        <item
+            android:id="@+id/nav_achievements"
+            android:title="@string/menu_achievements"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_leaderboard"
+            android:title="@string/menu_leaderboard" />
+        <item
+            android:id="@+id/nav_proposeTrivia"
+            android:title="@string/menu_proposeTrivia"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_approveTrivia"
+            android:title="@string/menu_approveTrivia"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_createTrivia"
+            android:title="@string/menu_createTrivia"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_collaborator_chatroom"
+            android:title="Chatroom"
+            android:visible="false" />
+        <item
+            android:id="@+id/loginActivity"
+            android:title="@string/menu_login"
+            android:visible="true" />
+    </group>
+</menu>

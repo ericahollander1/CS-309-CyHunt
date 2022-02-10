@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ravi Tamada (2017) Android Building Group Chat App using Sockets
+[Source Code] https://www.androidhive.info/2014/10/android-building-group-chat-app-using-sockets-part-2/
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!-- view background color -->
+    <solid android:color="@color/bg_msg_from" >
+    </solid>
+
+    <corners android:radius="8dp" >
+    </corners>
+
+</shape>

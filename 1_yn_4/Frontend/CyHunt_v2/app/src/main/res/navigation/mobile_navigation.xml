@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_landing_page">
+
+    <fragment
+        android:id="@+id/nav_landing_page"
+        android:name="com.example.cyhunt.View.LandingPageFragment"
+        android:label="fragment_landing_page"
+        tools:layout="@layout/fragment_landing_page" >
+        <action
+            android:id="@+id/action_nav_landing_page_to_nav_dashboard"
+            app:destination="@id/nav_dashboard" />
+        <action
+            android:id="@+id/action_nav_landing_page_to_nav_achievements"
+            app:destination="@id/nav_achievements" />
+        <action
+            android:id="@+id/action_nav_landing_page_to_nav_leaderboard"
+            app:destination="@id/nav_leaderboard" />
+        <action
+            android:id="@+id/action_nav_landing_page_to_nav_proposed_trivia_list"
+            app:destination="@id/nav_approveTrivia" />
+        <action
+            android:id="@+id/action_nav_landing_page_to_nav_create_trivia"
+            app:destination="@id/nav_createTrivia" />
+        <action
+            android:id="@+id/action_nav_landing_page_to_nav_propose_trivia"
+            app:destination="@id/nav_proposeTrivia" />
+        <action
+            android:id="@+id/action_nav_landing_page_to_loginActivity"
+            app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_nav_landing_page_to_collaborator_chatroom"
+            app:destination="@id/nav_collaborator_chatroom" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.cyhunt.View.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_nav_dashboard_to_nav_user_history"
+            app:destination="@id/nav_user_history" />
+        <action
+            android:id="@+id/action_nav_dashboard_to_nav_settings"
+            app:destination="@id/nav_settings" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_achievements"
+        android:name="com.example.cyhunt.View.AchievementsFragment"
+        android:label="fragment_achievements"
+        tools:layout="@layout/fragment_achievements" />
+    <fragment
+        android:id="@+id/nav_leaderboard"
+        android:name="com.example.cyhunt.View.LeaderboardFragment"
+        android:label="fragment_leaderboard"
+        tools:layout="@layout/fragment_leaderboard" />
+    <fragment
+        android:id="@+id/nav_collaborator_chatroom"
+        android:name="com.example.cyhunt.View.ChatroomFragment"
+        android:label="fragment_chatroom"
+        tools:layout="@layout/fragment_chatroom" />
+    <fragment
+        android:id="@+id/nav_user_history"
+        android:name="com.example.cyhunt.View.UserHistoryFragment"
+        android:label="fragment_user_history"
+        tools:layout="@layout/fragment_user_history" />
+    <fragment
+        android:id="@+id/nav_proposeTrivia"
+        android:name="com.example.cyhunt.View.ProposeTriviaFragment"
+        android:label="fragment_propose_trivia"
+        tools:layout="@layout/fragment_propose_trivia" />
+    <fragment
+        android:id="@+id/nav_createTrivia"
+        android:name="com.example.cyhunt.View.CreateTriviaFragment"
+        android:label="fragment_create_trivia"
+        tools:layout="@layout/fragment_create_trivia" />
+    <fragment
+        android:id="@+id/nav_approveTrivia"
+        android:name="com.example.cyhunt.View.ProposedTriviaListFragment"
+        android:label="fragment_proposed_trivia_list"
+        tools:layout="@layout/fragment_proposed_trivia_list" >
+        <action
+            android:id="@+id/action_nav_proposed_trivia_list_to_nav_approve_disapprove_trivia"
+            app:destination="@id/nav_approve_disapprove_trivia" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_approve_disapprove_trivia"
+        android:name="com.example.cyhunt.View.ApproveDisapproveTriviaFragment"
+        android:label="fragment_approve_disapprove_trivia"
+        tools:layout="@layout/fragment_approve_disapprove_trivia" />
+    <fragment
+        android:id="@+id/nav_change_password"
+        android:name="com.example.cyhunt.ChangePasswordFragment"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.cyhunt.View.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_nav_settings_to_nav_change_password"
+            app:destination="@id/nav_change_password" />
+    </fragment>
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.cyhunt.View.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/mapsActivity"
+        android:name="com.example.cyhunt.View.MapsActivity"
+        android:label="activity_maps"
+        tools:layout="@layout/activity_maps" />
+    <activity
+        android:id="@+id/triviaActivity"
+        android:name="com.example.cyhunt.View.TriviaActivity"
+        android:label="activity_trivia"
+        tools:layout="@layout/activity_trivia" />
+</navigation>

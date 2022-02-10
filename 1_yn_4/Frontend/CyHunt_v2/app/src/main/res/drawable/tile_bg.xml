@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ravi Tamada (2017) Android Building Group Chat App using Sockets
+[Source Code] https://www.androidhive.info/2014/10/android-building-group-chat-app-using-sockets-part-2/
+-->
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/solid_white_background"
+    android:tileMode="repeat" />

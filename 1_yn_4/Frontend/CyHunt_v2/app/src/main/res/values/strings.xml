@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">CyHunt</string>
+    <string name="menu_home">Home</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_map">Find Cy!!</string>
+    <string name="menu_achievements">Achievements</string>
+    <string name="menu_leaderboard">Leaderboard</string>
+    <string name="menu_createTrivia">Create Trivia</string>
+    <string name="menu_approveTrivia">Approve Trivia</string>
+    <string name="menu_proposeTrivia">Propose Trivia</string>
+    <string name="menu_login">Login</string>
+    <string name="guest_button">Play as guest</string>
+    <string name="login_button">Log In</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="trivia_button">Show Trivia Question</string>
+    <string name="forgot_password_text">Forgot your password? Click here!</string>
+    <string name="retrieve_password_button">Retrieve Password</string>
+    <string name="passwordRequirement1X">[X] Password must be at least 8 characters long</string>
+    <string name="passwordRequirement2X">[X] Password must contain at least 1 number</string>
+    <string name="passwordRequirement3X">[X] Password must contain at least 1 special character</string>
+    <string name="passwordRequirement1O">[O] Password must be at least 8 characters long</string>
+    <string name="passwordRequirement2O">[O] Password must contain at least 1 number</string>
+    <string name="passwordRequirement3O">[O] Password must contain at least 1 special character</string>
+    <string name="nevermind_back">Nevermind</string>
+    <string name="find_cy_button">Find Cy!!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_name">Guest User</string>
+    <string name="user_level">Score: 0</string>
+    <string name="text_popup_window">popup window text</string>
+    <string name="popup_window_trivia_correct">That was correct!</string>
+    <string name="popup_window_trivia_incorrect">That was incorrect.</string>
+    <string name="popup_window_receive_points">You earned 5 points.</string>
+    <string name="popup_window_no_points">You did not earn any points.</string>
+    <string name="popup_window_found_cy">Congratulations, you found Cy!</string>
+    <string name="button_popup_window">button popup window</string>
+    <string name="button_popup_window_map_page">Show trivia question</string>
+    <string name="button_popup_window_trivia_page">Back to map</string>
+    <string name="answer_not_selected">Must select an answer to continue</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="map_id">13e9caffd8865a16</string>
+    <string name="google_maps_key">AIzaSyBrCGmsBYavCNk0hDUejpF0ruyz_bNDJI8</string>
+</resources>

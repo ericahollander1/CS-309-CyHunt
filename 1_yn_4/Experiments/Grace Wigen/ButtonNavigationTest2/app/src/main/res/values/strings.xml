@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ButtonNavigationTest2</string>
+    <string name="edit_email">user@email.org</string>
+    <string name="passcode">example</string>
+</resources>
